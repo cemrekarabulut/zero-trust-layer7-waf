@@ -1,0 +1,19 @@
+# Sanal ortam
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Lab veritabanı (uygulama çalışınca oluşur)
+*.db
+
+# Üretilen test raporları: klasör kalsın, içerik girmesin
+**/reports/*
+!**/reports/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
